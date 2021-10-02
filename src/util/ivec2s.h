@@ -81,12 +81,12 @@ typedef union ivec2s {
 //  * @returns         destination
 //  */
 // CGLM_INLINE
-// ivec2s
-// glms_ivec2(vec3s v3) {
-//   ivec2s r;
-//   glm_ivec2(v3.raw, r.raw);
-//   return r;
-// }
+ ivec2s
+ glms_ivec2(vec3s v3) {
+   ivec2s r;
+   glm_ivec2(v3.raw, r.raw);
+   return r;
+ }
 
 /*!
  * @brief pack an array of ivec2 into an array of ivec2s
